@@ -37,7 +37,9 @@ main {
 }
 
 #imagem {
-    height: 250px;
+    height: 210px;
+    width: 280px;
+    margin-left: 4px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-image: url(../imagens/metal.jpg);
@@ -51,11 +53,13 @@ main {
 }
 
 h1 {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
 #textoBoasVindas {
+    font-size: 1rem;
+    margin: 5px;
     text-align: justify;
 }
 
@@ -70,4 +74,61 @@ h1 {
 
     color: #ffffff;
     background-color: #5f2c82;
+}
+
+.material-symbols-outlined {
+    margin: 5px;
+    font-size: 1.9rem;
+}
+
+#inputEmail, #inputSenha {
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1rem;
+
+    border: 1px solid #d6bde6;
+    background-color: #49a09d;
+}
+
+#inputEmail:hover, #inputSenha:hover {
+    border: 1px solid #ffffff;
+}
+
+.submits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 50px;
+    margin: 5px;
+}
+
+#botaoEnviar, #resetSenha {
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    border: 1px solid #49a09d;
+}
+
+#botaoEnviar {
+    width: 110px;
+
+    color: #ffffff;
+    background-color: #49a09d;
+}
+
+#resetSenha {
+    color: #49a09d;
+    background-color: #ffffff;
+}
+
+#botaoEnviar:hover, #resetSenha:hover {
+    color: #ffffff;
+    background-color: #59c4c0;
+    border: 2px solid #5f2c82;
 }
