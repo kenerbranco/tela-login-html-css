@@ -49,3 +49,25 @@ main {
 #formulario {
     padding: 10px;
 }
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+#textoBoasVindas {
+    text-align: justify;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+
+    color: #ffffff;
+    background-color: #5f2c82;
+}
