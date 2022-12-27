@@ -6,6 +6,7 @@
     Lilás: #5f2c82
 */
 
+/* Sreen Tablet */
 @media screen and (min-width: 768px) and (max-width: 991px){
     body {
         background-image: linear-gradient(#5f2c82, #49a09d);
@@ -33,11 +34,66 @@
         width: 420px;
     }
 
+    h1 {
+        font-size: 2rem;
+    }
+
+    #textoBoasVindas {
+        font-size: 1rem;
+    }
+
     #inputEmail, #inputSenha {
         width: 400px;
     }
 
     #botaoEnviar, #resetSenha {
         width: 200px;
+    }
+}
+
+/* Screen Laptop+ */
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(#5f2c82, #49a09d);
+    }
+
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+        width: 900px;
+        height: 350px;
+    }
+
+    #imagem {
+        width: 420px;
+        height: 350px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+    }
+
+    #formulario {
+        width: 460px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        margin-bottom: 20px;
+    }
+
+    #textoBoasVindas {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+
+    #inputEmail, #inputSenha {
+        width: 400px;
+    }
+
+    #botaoEnviar, #resetSenha {
+        width: 220px;
     }
 }
